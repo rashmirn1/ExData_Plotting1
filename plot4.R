@@ -51,6 +51,7 @@ dttm3 <- paste(dt3,tm3)
 dttms3 <- strptime(dttm3, "%d/%m/%Y %H:%M:%S", tz="")
 dttmf3 <- strftime(dttms3, "%s")
 dttma3 <- strftime(dttms3, "%a")
+l = length(dttmf)
 xat <- c(dttmf[1],dttmf[l/2+1],dttmf3[1]) 
 xlb <- c(dttma[1],dttma[l/2+1],dttma3[1]) 
 

@@ -44,6 +44,7 @@ lines(dttmf,sm3, type ="l",col="blue")
 colnm <- names(tab)
 lgd <- colnm[7:9]
 legend('topright', lgd, lty=1, col=c('black','red', 'blue'),bty='o',cex=.75)
+l = length(dttmf)
 xat <- c(dttmf[1],dttmf[l/2+1],dttmf3[1]) 
 xlb <- c(dttma[1],dttma[l/2+1],dttma3[1]) 
 axis(1,xat,xlb)
